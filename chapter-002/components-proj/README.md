@@ -4,11 +4,14 @@
   - [Stateless functional component](#stateless-functional-component)
   - [Statefull class component](#statefull-class-component)
   - [Defining Components](#defining-components)
+     - [All HTML tag should be included in div tag](All-HTML-tag-should-be-included-in-div-tag)
+     - [Define first functional component](#define-first-functional-component)
 
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
 - are regular classess that extends component class, they must contains a render method that returns html. Can contains in .js and jsx file
+
 ## Defining Components
 
 ### All HTML tag shoudl be included in div tag
@@ -21,3 +24,4 @@
     return  <h1>welcome to the world of react js</h1> <h1> this is going to be fun</h1>;
 ```
 - Now enclose the code in div tag, and observe the response it should work
+### Define first functional component
