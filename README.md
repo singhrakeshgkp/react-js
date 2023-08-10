@@ -1,5 +1,5 @@
 # Table of contents
-- [Basic](/basic/react-js-basic.md)
+- [Basic](/chapter-001/chapter-001.md)
   - [Local Setup](#local-setup)
   - First React Js Application
 - References
@@ -8,12 +8,3 @@
 
 
 
-## Local Setup And First React App
-- Install Node JS from official site
--  Verify the installation using ```Node -v ``` command
--  use below command to create first application
-   ```
-    npx create-react-app my-app
-    cd my-app
-    npm start
-   ```
