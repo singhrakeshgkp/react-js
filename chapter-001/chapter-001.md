@@ -10,3 +10,5 @@
     cd <proj name>
     npm start
    ```
+- Modify the contents -> Go to app.js and modify the text learn react to hello world. On starting server it should display hello world on page.
+- 
