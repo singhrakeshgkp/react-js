@@ -3,7 +3,7 @@
 - Componenets
   - [Stateless functional component](#stateless-functional-component)
   - [Statefull class component](#statefull-class-component)
-  - [Defining Compoenets](#defining-component)
+  - [Defining Components](#defining-components)
 
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
