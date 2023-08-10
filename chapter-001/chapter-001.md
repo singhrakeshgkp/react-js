@@ -1,5 +1,5 @@
 # Table Of Contents
--[Creating first app](#creating-first-app)
+- [Creating first app](#creating-first-app)
 - 
 ## Creating first app
 - Install Node JS from official site
