@@ -17,7 +17,7 @@
  return  <h1>welcome to the world of react js</h1>;
 ```
 - if we add multiple ```<h1>``` it will return error as its conventional rule that all html tag should be inside div tag
-   ```
- return  <h1>welcome to the world of react js</h1> <h1> this is going to be fun</h1>;
+```
+    return  <h1>welcome to the world of react js</h1> <h1> this is going to be fun</h1>;
 ```
 - Now enclose the code in div tag, and observe the response it should work
