@@ -7,6 +7,7 @@
      - [All HTML tag should be included in div tag](#All-HTML-tag-should-be-included-in-div-tag)
      - [Define first functional and class component](#define-first-functional-and-class-component)
  - [Export and Import](#export-and-import)
+    - [Default Export and Import](#default-export-and-import)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
