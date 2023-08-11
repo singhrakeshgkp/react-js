@@ -6,7 +6,7 @@
   - [Defining Components](#defining-components)
      - [All HTML tag should be included in div tag](#All-HTML-tag-should-be-included-in-div-tag)
      - [Define first functional and class component](#define-first-functional-and-class-component)
-
+ - [Export and Import](#export-and-import)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -44,3 +44,15 @@
     }
 
   ```
+## Export and Import
+### Default Export and Import
+- Adefault exported object can be renamed while importing. However, while defining the component in the render method same name must be used what we have given while importing.
+- Following code snippet is example of default import and export
+```
+  export default FunComponent -> example of default functional component export. 
+  export default ClassComponent-> example of default class component export
+
+  Below Code is part of app.js
+  import FComp from './components/FunComponent'; -> here we have renamed the functional default export component same can be done with class one as well. same <FComp> tag should be used while rendering it.
+  import ClassComponent from './components/ClsComponent';
+```
