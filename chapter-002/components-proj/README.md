@@ -4,8 +4,8 @@
   - [Stateless functional component](#stateless-functional-component)
   - [Statefull class component](#statefull-class-component)
   - [Defining Components](#defining-components)
-     - [All HTML tag should be included in div tag](All-HTML-tag-should-be-included-in-div-tag)
-     - [Define first functional component](#define-first-functional-component)
+     - [All HTML tag should be included in div tag](#All-HTML-tag-should-be-included-in-div-tag)
+     - [Define first functional component and class](#define-first-functional-and-class-component)
 
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
@@ -24,4 +24,23 @@
     return  <h1>welcome to the world of react js</h1> <h1> this is going to be fun</h1>;
 ```
 - Now enclose the code in div tag, and observe the response it should work
-### Define first functional component
+### Define first functional component and class
+- Create a new folder ```compoenent``` under source directory
+- Create new file ```FunComponent.js``` and add following code in that
+  ```
+      import React from "react";
+    function FunComponent(){
+        return <label>my first fun component</label>
+    }
+  ```
+- Create a class component named ```ClsComponent.js``` and add following lines in that.
+  ```
+    import React, { Component } from "react";
+    class ClsComponent extends React.Component{
+    
+        render(){
+            return<p>this is my first class component</p>
+        }
+    }
+
+  ```
