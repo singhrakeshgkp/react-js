@@ -79,7 +79,7 @@
       }
     }
   ```
-  - Now go to your app.js and import the named export Components.
+- Now go to your app.js and import the named export Components.
    ```
      import {ClsComponent,ClsComponentTwo} from './components/ClsComponent';  ----> part of import clause
      <ClsComponent></ClsComponent> ----> part of div
