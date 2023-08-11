@@ -52,12 +52,36 @@
 - Following code snippet is example of default import and export
 ```
   export default FunComponent -> example of default functional component export. 
-  export default ClassComponent-> example of default class component export
+  export default ClsComponent-> example of default class component export
 
   Below Code is part of app.js
   import FComp from './components/FunComponent'; -> here we have renamed the functional default import component same can be done with class one as well. same <FComp> tag should be used while rendering it.
-  import ClassComponent from './components/ClsComponent';
+  import ClsComponent from './components/ClsComponent';
 ```
 
 ### Named Export and Import
 - A named export or just export can be used to export multiple objects from a file but while importing it can not be renamed.
+- Create new class Component named ```ClsComponentTwo2``` in ```ClsComponent``` file.
+- Remove the export default from ```ClsComponent.js``` file and prefix export keyword before class as shown below.
+  ```
+    import React, { Component } from "react";
+    export class ClsComponent extends React.Component{
+    
+      render(){
+          return<p>this is my first class component</p>
+      }
+    }
+    
+    export class ClsComponentTwo extends React.Component{
+    
+      render(){
+          return<p>this is my Second class component</p>
+      }
+    }
+  ```
+  - Now go to your app.js and import the named export Components.
+   ```
+     import {ClsComponent,ClsComponentTwo} from './components/ClsComponent';  ----> part of import clause
+     <ClsComponent></ClsComponent> ----> part of div
+     <ClsComponentTwo></ClsComponentTwo>----->part of dive
+   ```
