@@ -8,6 +8,7 @@
      - [Define first functional and class component](#define-first-functional-and-class-component)
  - [Export and Import](#export-and-import)
     - [Default Export and Import](#default-export-and-import)
+    - [Named Export and Import](#named-export-and-import)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -54,6 +55,9 @@
   export default ClassComponent-> example of default class component export
 
   Below Code is part of app.js
-  import FComp from './components/FunComponent'; -> here we have renamed the functional default export component same can be done with class one as well. same <FComp> tag should be used while rendering it.
+  import FComp from './components/FunComponent'; -> here we have renamed the functional default import component same can be done with class one as well. same <FComp> tag should be used while rendering it.
   import ClassComponent from './components/ClsComponent';
 ```
+
+### Named Export and Import
+- A named export or just export can be used to export multiple objects from a file but while importing it can not be renamed.
