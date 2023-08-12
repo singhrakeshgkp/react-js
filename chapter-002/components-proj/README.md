@@ -9,6 +9,7 @@
  - [Export and Import](#export-and-import)
     - [Default Export and Import](#default-export-and-import)
     - [Named Export and Import](#named-export-and-import)
+    - [Higher order and pure component](#higher-order-and-pure-component)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -85,3 +86,13 @@
      <ClsComponent></ClsComponent> ----> part of div
      <ClsComponentTwo></ClsComponentTwo>----->part of dive
    ```
+### Higher order and pure component
+- It is a function that takes a component and return new component. It facilitates reusing the component logic.
+  ```
+  const newComp = higherOrderComponent(orginalComp)
+  ```
+  #### How it works
+  - Create new component named ```ClickCompoenet.js```
+  - type rce (it will create new class component, its kind of shortcut, for this to work make sure u have installed ES7 React Snippet)
+  - define a button and attribute named count, each time user will click the cout gets inclreases
+  - Now import the ClickComponent in app.js and observe the output, every time button gets clicked, count should be increases. 
