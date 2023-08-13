@@ -9,7 +9,8 @@
  - [Export and Import](#export-and-import)
     - [Default Export and Import](#default-export-and-import)
     - [Named Export and Import](#named-export-and-import)
-    - [Higher order and pure component](#higher-order-and-pure-component)
+ - [Higher order component](#higher-order-component)
+ - [Pure Component](#pure-component)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -86,7 +87,7 @@
      <ClsComponent></ClsComponent> ----> part of div
      <ClsComponentTwo></ClsComponentTwo>----->part of dive
    ```
-### Higher order and pure component
+### Higher order component
 - It is a function that takes a component and return new component. It facilitates reusing the component logic.
   ```
   const newComp = higherOrderComponent(orginalComp)
@@ -95,4 +96,19 @@
   - Create new component named ```ClickCompoenet.js```
   - type rce (it will create new class component, its kind of shortcut, for this to work make sure u have installed ES7 React Snippet)
   - define a button and attribute named count, each time user will click the cout gets inclreases
-  - Now import the ClickComponent in app.js and observe the output, every time button gets clicked, count should be increases. 
+  - Now import the ClickComponent in app.js and observe the output, every time button gets clicked, count should be increases.
+  - Create new file ```MouseOverComponent.js``` and here write the code to increate the counter if we over the mouse on button.
+  - Now to understand how Higher order component works we have to pass ```ClickComponent.js``` and ```MouseHoverComponent.js```  as parameters to give birth of new component.
+  - So now Lets create new component called ```HigherOrderComponent.js```
+  - Import ```HigherOrderComponent.js``` in ClickCOmponent.js and ```MouseHoverComponent.js``` and pass these component as parameter.
+
+### Pure Component
+- React.Component is the base class for react components. React.PureCompoent is the variation of React.Component class and does a shallow comparison of props and state.
+- A react component can be considered as pure component, if it renders the same output for the same state and props
+- How it works
+  - Create three js file ```PureComp.js, RegularComp.js and ParentComp.js```
+  - To change the state of the component lets make use of constructor in ParentComp class.
+  - Import the PureComp and RegComp into parent Component.
+  - Include properties name in both regular and pure component class
+  - Import parent component in app.js file.
+  - To Check if pure component is re-rendring the result or not lets simple add logs.
