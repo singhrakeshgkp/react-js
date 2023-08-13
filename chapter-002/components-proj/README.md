@@ -142,4 +142,7 @@
 - finally import the ```ClassProp``` in app.js file, on browser it should display the message what we have defined in props file.
 ### Passing Prop to child component
 - Put below line of code in child component```ClassProp.js``` and ```app.js``` respectively.
- ```  <div>Hello Rakesh  welcome to prop section of this tutorial</div>``` and in app.js  ```<div><ClassProp name="rakesh"></ClassProp></div>```
+ ```  <div>Hello {this.props.name}  welcome to prop section of this tutorial</div>`` and in app.js  ```<div><ClassProp name="rakesh"></ClassProp></div>```
+### Passing multiple props to child component
+- Add below line of code in child component ```ClassProp.js``` and ```app.js```
+  ```<div>Hello {this.props.name} from {this.props.city} welcome to prop section of this tutorial</div>``` and in app.js ```<div><ClassProp name="rakesh" city="Gorakhpur India"></ClassProp></div>```
