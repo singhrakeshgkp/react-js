@@ -12,6 +12,8 @@
  - [Higher order component](#higher-order-component)
  - [Pure Component](#pure-component)
  - [Component life cycle](#component-life-cycle)
+-  [Props](#Props)
+-  
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -114,3 +116,20 @@
   - Include properties name in both regular and pure component class
   - Import parent component in app.js file.
   - To Check if pure component is re-rendring the result or not lets simple add logs.
+
+  ## Component life cycle
+  ```
+  1. Mounting
+  componentWillMount-------> Render -----> componentDidMount
+  2. Updation
+
+    componentWillReceiveProps()---- >                               
+                                         ->ShouldComponentUpdate()-->ComponentWillUpdate()-->render()
+     setState()  ------------------->
+                 
+  3. Unmounting-> Perform cleanup operation
+  componentWillUnmount()
+  ```
+
+  ## Props
+   
