@@ -105,6 +105,7 @@
 ### Pure Component
 - React.Component is the base class for react components. React.PureCompoent is the variation of React.Component class and does a shallow comparison of props and state.
 - A react component can be considered as pure component, if it renders the same output for the same state and props
+- It optimize the code and also improves the performance.
 - How it works
   - Create three js file ```PureComp.js, RegularComp.js and ParentComp.js```
   - To change the state of the component lets make use of constructor in ParentComp class.
