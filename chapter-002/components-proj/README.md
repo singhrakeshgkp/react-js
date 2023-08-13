@@ -11,6 +11,7 @@
     - [Named Export and Import](#named-export-and-import)
  - [Higher order component](#higher-order-component)
  - [Pure Component](#pure-component)
+ - [Component life cycle](#component-life-cycle)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
