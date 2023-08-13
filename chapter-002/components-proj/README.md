@@ -13,7 +13,7 @@
  - [Pure Component](#pure-component)
  - [Component life cycle](#component-life-cycle)
 -  [Props](#Props)
--  
+-  [State](#State) 
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -140,15 +140,18 @@
 - Create new folder inside source folder, i'll call it ```props```
 - Create New js file, lets say ```ClassProp.js```
 - finally import the ```ClassProp``` in app.js file, on browser it should display the message what we have defined in props file.
-### Passing Prop to child component
+### Passing Prop to class child component
 - Put below line of code in child component```ClassProp.js``` and ```app.js``` respectively.
  ```
   <div>Hello {this.props.name}  welcome to prop section of this tutorial</div>  and in app.js  <div><ClassProp name="rakesh"></ClassProp></div
   
  ```
-### Passing multiple props to child component
+### Passing multiple props to  class child component
 - Add below line of code in child component ```ClassProp.js``` and ```app.js```
 ```
   <div>Hello {this.props.name} from {this.props.city} welcome to prop section of this tutorial</div> and in app.js <div><ClassProp name="rakesh" city="Gorakhpur India"></ClassProp></div>
 
 ```
+### Passing the multiple props to functional child component
+- Create a ```FunctionalProp.js``` file
+## State
