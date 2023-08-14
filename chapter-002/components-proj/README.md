@@ -13,7 +13,8 @@
  - [Pure Component](#pure-component)
  - [Component life cycle](#component-life-cycle)
 -  [Props](#Props)
--  [State](#State) 
+-  [State](#State)
+-  [Props vs state](#Props-vs-state)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 ## Statefull class component
@@ -155,3 +156,15 @@
 ### Passing the multiple props to functional child component
 - Create a ```FunctionalProp.js``` file
 ## State
+- A state is an object that stores the values of properties belonging to a component that could change over a period of time
+## Props vs state
+- Props
+   - Props are used to pass data and event handler to its child component
+   - Props are immutable, once set can not be changed
+   - Used in both functional and class component
+   - Props are set by the parent component for child components
+- State
+   - State are used to store the data of components that has to be rendered to the view
+   - Holds data and change over the time
+   - Used only in class component.
+   - States are generally updated by the even handler.
