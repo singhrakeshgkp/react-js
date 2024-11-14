@@ -21,7 +21,7 @@
 - are regular classess that extends component class, they must contains a render method that returns html. Can contains in .js and jsx file
 
 ## Defining Components
-
+### Note ---> Now we are defining component using ```.jsx``` file, below is outdated way of defining component.
 ### All HTML tag shoudl be included in div tag
 - Lets first replace the return section of app.js with following code and run the program, it will return the message,
  ```
