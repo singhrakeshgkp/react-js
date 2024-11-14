@@ -1,7 +1,7 @@
 # Table of contents
 - [Introduction](#introduction)
 - [Proj Setup](/chapter-001/chapter-001.md)
-- [Components](/chapter-002/components-proj/README.md)
+- [Components](/components.md)
 - References
   - https://react.dev/learn
   - https://www.youtube.com/watch?v=-JolQDZCMX8&t=733s
