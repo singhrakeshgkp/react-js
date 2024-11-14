@@ -1,6 +1,6 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Proj Setup](/chapter-001.md)
+- [Proj Setup](/project-setup.md)
 - [Components](/component.md)
 - References
   - https://react.dev/learn
