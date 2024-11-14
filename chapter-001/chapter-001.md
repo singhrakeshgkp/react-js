@@ -5,7 +5,7 @@
       - [public](#public)
       - [src](#src)
       - [General Details](#general-details)
-   - [Creating Custom Page](#creating-custom-page)   
+   - [Modifying default Index html ui](#Modifying-default-Index-html-ui)   
 # Creating first app
 - Install Node JS from official site
 -  Verify the installation using ```Node -v ``` command
@@ -33,7 +33,8 @@
 - ```index.html``` is the main entry point in our program.
 - pckage.json file contains meta data about project such as project name, version number, build name such as vit and react version number
 
-  ## Creating Custom page
+  ## Modifying default Index html ui
 - Go to ```App.jsx```, and delete all the elements (from start curly brace to end curly brace).
 - Delete ```app.css``` file.
-- Create ```Header.jsx```
+- Create ```Header.jsx```, ```Footer.jsx``` and ```IItem.jsx``` file, export and import them in ```app.jsx```
+- 
