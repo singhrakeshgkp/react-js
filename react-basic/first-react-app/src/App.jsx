@@ -1,14 +1,17 @@
-import Button2 from './Button/Button2.jsx';
-import Button1 from './components/Button1.jsx'
-import Button3 from './components/Button3.jsx'
+import Item from './components/Item.jsx'
 function App() {
+  // except string all value like boolean integer ...etc we will pass in {} braces
   return (
     <>
-   
-   <Button1></Button1>
-   <Button2></Button2>
-   <Button3></Button3>
- 
+    
+   <Item version={146} esimSupported={true} ></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
+   <Item version={14} esimSupported={true}></Item>
   </>
   );
 }
