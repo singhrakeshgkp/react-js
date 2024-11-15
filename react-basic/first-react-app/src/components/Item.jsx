@@ -12,7 +12,7 @@ function Item(props){
         </div>
     );
 }else{
-  return  (<div color='black'><h3>Not Available</h3></div>);
+  return  <div color='black'><h3>Not Available</h3></div>
 }
 }
 Item.propTypes = {
