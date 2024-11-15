@@ -14,4 +14,5 @@
 
 # Branches
 - item-card--> add iphone image, and itemcard.jsx file and apply css on the item.
-- 
+- apply-css --> we can apply external css, modules specific css and inline css. Refer ```Button1, Button2, Button2 .jsx files```
+- passing-props
