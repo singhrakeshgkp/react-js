@@ -4,7 +4,7 @@ function App() {
   return (
     <>
     
-   <Item version={146} esimSupported={true} ></Item>
+   
    <Item version={14} esimSupported={true}></Item>
    <Item version={14} esimSupported={true}></Item>
    <Item version={14} esimSupported={true}></Item>
@@ -12,6 +12,7 @@ function App() {
    <Item version={14} esimSupported={true}></Item>
    <Item version={14} esimSupported={true}></Item>
    <Item version={14} esimSupported={true}></Item>
+   <Item version={15} esimSupported={true}></Item>
   </>
   );
 }
