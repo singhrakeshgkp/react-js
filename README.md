@@ -16,3 +16,5 @@
 - item-card--> add iphone image, and itemcard.jsx file and apply css on the item.
 - apply-css --> we can apply external css, modules specific css and inline css. Refer ```Button1, Button2, Button2 .jsx files```
 - passing-props--> Pass key value pair to react js component.
+- conditional-rendering--> render html content based on condition true or false. refer ```Item.jsx and App.jsx```
+- dynamic-list ----> rendering ordered list or unordered list html content, value coming from an array. refer ```List.jsx and App.jsx```.
