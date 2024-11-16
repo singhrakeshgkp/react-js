@@ -18,3 +18,5 @@
 - passing-props--> Pass key value pair to react js component.
 - conditional-rendering--> render html content based on condition true or false. refer ```Item.jsx and App.jsx```
 - dynamic-list ----> rendering ordered list or unordered list html content, value coming from an array. refer ```List.jsx and App.jsx```.
+- sorting-filtering----> Sort list of object and apply filter. refer ```List.jsx and App.jsx```
+- sorting-filtering2----> passing list dynamically from ```app.jsx``` file to ```List.jsx``` component
