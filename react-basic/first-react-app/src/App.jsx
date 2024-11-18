@@ -1,9 +1,9 @@
-import Button from './components/Button.jsx';
+import UseStateCompEx from "./components/UseStateCompEx";
 function App() {
   
   return (
     <>
-   <Button></Button>
+  <UseStateCompEx></UseStateCompEx>
   </>
   );
 }
