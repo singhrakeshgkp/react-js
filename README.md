@@ -24,4 +24,4 @@
 - **event-parameter** --> with click event we are automatically provided an click event(e), its object that describe even that occurred. refer ```Button.jsx``` component.
 - **React Hook** --> React hook is a special function that allows functional components to use react features without writing class component (introduced in react v16.8). Normally react hook function starts with ```use``` char such as ```useState, useEffect,useContext,useReducer,....etc. For more details refer official documentation.
    - **react-hook-usestate** -> A use state hook that allows the creation of stateful variable and a setter function to update its value in the virtual DOM
-- 
+- **updater-function** --> An updater function is a function passed as an argument to ```setState()``` . Usefull with multiple state updates and asynchronous functions. refer ```CounterEx.jsx``` 
