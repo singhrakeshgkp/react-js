@@ -1,9 +1,9 @@
-import UseStateCompEx from "./components/UseStateCompEx";
+import CounterEx from "./components/CounterEx";
 function App() {
   
   return (
     <>
-  <UseStateCompEx></UseStateCompEx>
+  <CounterEx></CounterEx>
   </>
   );
 }
