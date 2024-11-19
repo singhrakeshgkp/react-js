@@ -27,3 +27,4 @@
 - **updater-function** --> An updater function is a function passed as an argument to ```setState()``` . Usefull with multiple state updates and asynchronous functions. refer ```CounterEx.jsx```
    - **updater-function-update-obj** Update the object properties. refer ```EmployeeEx.jsx```
    - **updater-function-update-array** Update array state. refer ```EmployeesEx.jsx```
+- **multi-usestate**  Working with multiple use state variables. refer ```EmployeesEx.jsx```
