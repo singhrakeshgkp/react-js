@@ -1,9 +1,9 @@
-import EmployeesEx from "./components/EmployeesEx";
+import TodaysTasks from "./components/TodaysTasks";
 function App() {
   
   return (
     <>
-  <EmployeesEx></EmployeesEx>
+  <TodaysTasks></TodaysTasks>
   </>
   );
 }
