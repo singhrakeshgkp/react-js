@@ -28,3 +28,4 @@
    - **updater-function-update-obj** Update the object properties. refer ```EmployeeEx.jsx```
    - **updater-function-update-array** Update array state. refer ```EmployeesEx.jsx```
 - **multi-usestate**  Working with multiple use state variables. refer ```EmployeesEx.jsx```
+- **todays-tasks** List down the tasks. refer ```index.css and TodaysTasks.jsx``` file.
