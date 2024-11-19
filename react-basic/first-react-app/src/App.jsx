@@ -1,9 +1,9 @@
-import CounterEx from "./components/CounterEx";
+import EmployeeEx from "./components/EmployeeEx";
 function App() {
   
   return (
     <>
-  <CounterEx></CounterEx>
+  <EmployeeEx></EmployeeEx>
   </>
   );
 }
