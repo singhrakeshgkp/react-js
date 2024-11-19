@@ -1,9 +1,9 @@
-import EmployeeEx from "./components/EmployeeEx";
+import EmployeesEx from "./components/EmployeesEx";
 function App() {
   
   return (
     <>
-  <EmployeeEx></EmployeeEx>
+  <EmployeesEx></EmployeesEx>
   </>
   );
 }
