@@ -29,3 +29,5 @@
    - **updater-function-update-array** Update array state. refer ```EmployeesEx.jsx```
 - **multi-usestate**  Working with multiple use state variables. refer ```EmployeesEx.jsx```
 - **todays-tasks** List down the tasks. refer ```index.css and TodaysTasks.jsx``` file.
+- **use-effect** for use effect web hook refer ```UseEffectEx.jsx``` and Read from other sources.
+- **timer** Create a timer
