@@ -1,71 +1,29 @@
-.to-do-list{
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 100px;
+body{
+  background-image: url(assets/temple.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
 
-}
-h1{
-  font-size: 4rem;
-}
-button{
-  font-size: 1.7rem;
-  font-weight: bold;
-  padding:10px 20px;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.5s ease
-}
-.add-btn{
-  background-color: rgb(220, 173, 106);
-}
-.add-btn:hover{
-  background-color: rgb(220, 173, 120);
-}
-
-.delete-btn{
-  background-color: rgb(218, 58, 40);
-}
-.delete-btn:hover{
-  background-color: rgb(218, 58, 50);
-}
-
-.move-btn{
-  background-color: rgb(126, 183, 211);
-}
-.move-btn:hover{
-  background-color: rgb(126, 183, 211);
-}
-input[type="text"]{
-  font-size: 1.6rem;
-  padding: 10px;
-  border: 2px solid hsla(0, 0%, 80%, 0.5);
-  color: hsla(0, 0%, 0%, 0.5);
-}
-
-ol{
-  padding: 0px;
-}
-li{
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 15px;
-  border: 3px solid hsla(0, 0%, 85%, 0.75);
-  margin-bottom: 10px;
-  background-color: hsl(0, 0%, 97%);
-  border-radius: 5px;
-  display:flex;
+  /* optional properties*/
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
   align-items: center;
 
 }
+.timer-container{
+  backdrop-filter: blur(1px);
+  width: 100vw;
+  padding: 10px 0;
 
-.text{
-  flex: 1;
 }
+.timer{
+  color:white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0.75);
 
-.delete-btn,.move-btn{
-  padding: 8px 12px;
-  font-size: 1.4rem;
-  margin-left: 10px;
 }

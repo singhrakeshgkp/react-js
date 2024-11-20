@@ -1,9 +1,9 @@
-import UseEffectEx from "./components/UseEffectEx";
+import TimerEx from "./components/TimerEx.jsx";
 function App() {
   
   return (
     <>
-  <UseEffectEx></UseEffectEx>
+  <TimerEx></TimerEx>
   </>
   );
 }
