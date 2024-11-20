@@ -1,29 +1,4 @@
-body{
-  background-image: url(assets/temple.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0;
-
-  /* optional properties*/
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  align-items: center;
-
-}
-.timer-container{
-  backdrop-filter: blur(1px);
-  width: 100vw;
-  padding: 10px 0;
-
-}
-.timer{
-  color:white;
-  font-size: 6rem;
-  font-weight: bold;
-  font-family: monospace;
-  text-shadow: 3px 3px 5px hsl(0, 0%, 0.75);
-
+.container{
+   border: 3px solid;
+   padding: 20px; 
 }
