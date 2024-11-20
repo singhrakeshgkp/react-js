@@ -1,9 +1,9 @@
-import TodaysTasks from "./components/TodaysTasks";
+import UseEffectEx from "./components/UseEffectEx";
 function App() {
   
   return (
     <>
-  <TodaysTasks></TodaysTasks>
+  <UseEffectEx></UseEffectEx>
   </>
   );
 }
