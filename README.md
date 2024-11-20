@@ -31,3 +31,4 @@
 - **todays-tasks** List down the tasks. refer ```index.css and TodaysTasks.jsx``` file.
 - **use-effect** for use effect web hook refer ```UseEffectEx.jsx``` and Read from other sources.
 - **timer** Create a timer
+- **use-context-hook** To pass value from outer to inner component (using props we can also do, but props approach is littile bit tedious)
