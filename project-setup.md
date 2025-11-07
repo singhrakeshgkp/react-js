@@ -25,7 +25,7 @@
 ### Public
  - **Public** Folder contains public assets such as images, fonts, videos. These are not bundled in final output and available via url.
 ### src
-- **Src** folder most of the time/coding we will be doing in this folder.
+- **Src** folder most of the time we will be doing coding in this folder.
 - **assets** its similar to **public** folder, however here assets folder will be bundled in final output.
 
 ### General Details
