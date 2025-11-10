@@ -1,7 +1,8 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Proj Setup](Proj-setup)
-- [Components](Components)
+- [Proj Setup](#Proj-setup)
+- [Components](#Components)
+- [State](#state)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -19,7 +20,20 @@
 # Components
 - [Click here](/component.md)
 
-  
+# State
+### State VS Props
+- State
+   - State is managed within components.
+   - Variables declared within function body.
+   - mutable/can change state.
+   - useState hooks ---> in functional components
+   - this.state---> class components
+ - props
+   - props gets passed to components
+   - function parameter
+   - immutable
+   - in functional components we can use props
+   - in class components we can use this.props
 # Branches
 - **1-components** -->
 - **2-states** -->
