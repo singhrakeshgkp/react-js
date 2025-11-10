@@ -1,7 +1,7 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Proj Setup](/project-setup.md)
-- [Components](/component.md)
+- [Proj Setup](Proj-setup)
+- [Components](Components)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -16,6 +16,10 @@
 
 # Proj Setup
 - [Click here](/project-setup.md)
+# Components
+- [Click here](/component.md)
+
+  
 # Branches
 - **1-components** -->
 - **2-states** -->
