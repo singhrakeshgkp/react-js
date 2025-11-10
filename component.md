@@ -17,6 +17,10 @@
 -  [Props vs state](#Props-vs-state)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
+- Steps to create and render new component.
+   - Create new component ```GreetComponent.jsx or .js```
+   - Export Greet component
+   - import Greet component in ```app.jsx``` file and use it as custom html tag such as ```<Greet></Greet>
 ## Statefull class component
 - are regular classess that extends component class, they must contains a render method that returns html. Can contains in .js and jsx file
 
