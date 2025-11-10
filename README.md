@@ -15,7 +15,7 @@
 - Follow component based architecture.
 
 # Proj Setup
-- [Click here](#project-setup.md)
+- [Click here](/project-setup.md)
 # Branches
 - **1-components** -->
 - **2-states** -->
