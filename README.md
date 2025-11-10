@@ -10,7 +10,9 @@
 
 # Introduction
 - React is a java script library, used to create complex UI using small isolated pieces of code called component. It uses a syntax extension of java script known as **jsx** (java script xml). jsx allow to write html code within java script files.
-- React uses virtual DOM. A virtual DOM is a lightweight version of real DOM, 
+- React uses virtual DOM. A virtual DOM is a lightweight version of real DOM,
+- React focus on only UI, it does not focus on routing, http request ...etc.
+- Follow component based architecture.
 
 # Branches
 - **item-card**--> add iphone image, and itemcard.jsx file and apply css on the item.
