@@ -37,7 +37,7 @@
             }
             
             ```
-     - named export ```export const Greet = ()=><h1>welcome to react component section</h1>``` Greet should be used everywhere, ex in app.jsx while importing and rendering.
+         - named export ```export const Greet = ()=><h1>welcome to react component section</h1>``` Greet should be used everywhere, ex in app.jsx while importing and rendering.
    - import Greet component in ```app.jsx``` file and use it as custom html tag such as ```<Greet></Greet>
 ## Statefull class component
 - are regular classess that extends component class, they must contains a render method that returns html. Can contains in .js and jsx file
