@@ -20,6 +20,23 @@
 - Steps to create and render new component.
    - Create new component ```GreetComponent.jsx or .js```
    - Export Greet component
+      - We can export Greet component in two way
+         - export default Greet ----> this allow u to use any name in ```app.jsx``` file or any other place where we want to use this component. ex.
+            ```
+             import Test from './components/GreetComponent'
+               return (
+             <Test></Test>
+            )
+            }
+
+            OR
+           import Greet from './components/GreetComponent'
+            return (
+             <Greet></Greet>
+            )
+            }
+            
+            ```
    - import Greet component in ```app.jsx``` file and use it as custom html tag such as ```<Greet></Greet>
 ## Statefull class component
 - are regular classess that extends component class, they must contains a render method that returns html. Can contains in .js and jsx file
