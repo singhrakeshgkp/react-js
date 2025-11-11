@@ -189,4 +189,4 @@
    - State are used to store the data of components that has to be rendered to the view
    - Holds data and change over the time
    - Used only in class component.
-   - States are generally updated by the even handler.
+   - States are generally updated by the event handler.
