@@ -24,6 +24,10 @@
 # State
 - **branch** --> 2-state
 - A state is an object that stores the values of properties belonging to a component that could change over a period of time
+- we should never modify state directly,instead we should use setState functiion. Below line of code will not render the incremented counter value in DOM, however expected value will be printed on console
+  ```
+  this.state.count=this.state.count+1 
+  ```
 ### State VS Props
 - State
    - State is managed within components. State are used to store the data of components that has to be rendered to the view
