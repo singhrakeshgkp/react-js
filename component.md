@@ -177,5 +177,3 @@
 ```
 ### Passing the multiple props to functional child component
 - Create a ```FunctionalProp.js``` file
-## State
-- A state is an object that stores the values of properties belonging to a component that could change over a period of time
