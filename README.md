@@ -18,22 +18,28 @@
 # Proj Setup
 - [Click here](/project-setup.md)
 # Components
+- **branch**--> 1-components
 - [Click here](/component.md)
 
 # State
+- **branch** --> 2-state
+- A state is an object that stores the values of properties belonging to a component that could change over a period of time
 ### State VS Props
 - State
-   - State is managed within components.
-   - Variables declared within function body.
+   - State is managed within components. State are used to store the data of components that has to be rendered to the view
+   - Variables declared within function body. Holds data and change over the time
    - mutable/can change state.
    - useState hooks ---> in functional components
-   - this.state---> class components
+   - this.state---> class components(Used only in class component.)
  - props
-   - props gets passed to components
+   - props gets passed to components(Props are used to pass data and event handler to its child component)
    - function parameter
    - immutable
    - in functional components we can use props
    - in class components we can use this.props
+   - Props are set by the parent component for child components
+   - Used in both functional and class component
+
 # Branches
 - **1-components** -->
 - **2-states** -->
