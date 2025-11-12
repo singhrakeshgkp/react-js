@@ -176,3 +176,20 @@
 ```
 ### Passing the multiple props to functional child component
 - Create a ```FunctionalProp.js``` file
+
+### Destructuring props
+- define functional component as shown below
+  ```
+  const Greet=(name,age)=>{
+    retrun <h1>{name} is {age} year old</h1>
+  }
+
+  or
+
+    const Greet=props=>{
+    {name,age}=props
+    retrun <h1>{name} is {age} year old</h1>
+  }
+
+  
+  ```
