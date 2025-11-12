@@ -178,7 +178,7 @@
 - Create a ```FunctionalProp.js``` file
 
 ### Destructuring props
-- define functional component as shown below
+- define functional component as shown below, same way we can destructure class props and state.
   ```
   const Greet=(name,age)=>{
     retrun <h1>{name} is {age} year old</h1>
