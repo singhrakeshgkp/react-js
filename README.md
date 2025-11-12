@@ -3,6 +3,7 @@
 - [Proj Setup](#Proj-setup)
 - [Components](#Components)
 - [State](#state)
+- [Event](#Event)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -43,6 +44,9 @@
    - in class components we can use this.props
    - Props are set by the parent component for child components
    - Used in both functional and class component
+
+# Event
+- Dont try to call event handler ``` <button onClick={clickHandler()}>Click</button>``` with paranthesis, it will become normal function call, and automatically called and log message on console without click even. Instead we should use it ``` <button onClick={clickHandler}>Click</button>``` without paranthesis
 
 # Branches
 - **1-components** -->
