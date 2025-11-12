@@ -13,8 +13,7 @@
  - [Pure Component](#pure-component)
  - [Component life cycle](#component-life-cycle)
 -  [Props](#Props)
--  [State](#State)
--  [Props vs state](#Props-vs-state)
+   - [Destructuring props](#Destructuring-props)
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 - Steps to create and render new component.
