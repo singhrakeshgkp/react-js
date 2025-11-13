@@ -103,6 +103,10 @@
 - Iterate list of students
 - Iterate list of students by separating Student and Sutdents(Iterating jsx) logic separately  by passing students as props
 ### Iterating customers and use key (refer customers and customer.jsx file)
+- key propertty we can not use to render, its reserved for react to use list of elements efficiently.
+
+### List Key and Index
+- lets say we have list of names, name could be duplicate and while redering element react need unique key to get rid of this we could use index. refer ```Names.jsx``` file
 
 # Branches
 - **1-components** -->
