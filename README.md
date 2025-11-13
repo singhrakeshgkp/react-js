@@ -4,6 +4,7 @@
 - [Components](#Components)
 - [State](#state)
 - [Event](#Event)
+   - [Binding Event Handler](#binding-event-handler)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -46,7 +47,18 @@
    - Used in both functional and class component
 
 # Event
-- Dont try to call event handler ``` <button onClick={clickHandler()}>Click</button>``` with paranthesis, it will become normal function call, and automatically called and log message on console without click even. Instead we should use it ``` <button onClick={clickHandler}>Click</button>``` without paranthesis
+- Dont try to call event handler ``` <button onClick={clickHandler()}>Click</button>``` with paranthesis, it will become normal function call, and automatically called and log message on console without click event. Instead we should use it ``` <button onClick={clickHandler}>Click</button>``` without paranthesis
+
+### Binding Event Handler
+- **Branch** --> 3-event
+- If we don't bind event handler and call a function to changes state (value of h1 tag using this.setState) we will get undefined error or if we log ```console.log(this)``` we will get same undefined error. To get rid of this error we can bind event handler
+- we can bind event handler in following ways
+  - Binding in render method for more details refer 03-event branch, ```BindEventHandlerEx1.jsx and BindEventHandlerEx2.jsx``` files
+    - singple binding
+    - using arrow function
+  - Binding in constructor
+  - Binding using arrow function outside constructor
+ 
 
 # Branches
 - **1-components** -->
