@@ -80,9 +80,13 @@
   message= <div>Welcome</div>
   }
   return <div>{message}</div> 
- ```
+  ```
 
+- but we can write ternary operator in jsx
 
+  ```
+  return flag?<div>Hello</div> : <div>Welcome></div>
+  ```
 # Branches
 - **1-components** -->
 - **2-states** -->
