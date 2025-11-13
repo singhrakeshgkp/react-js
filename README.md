@@ -107,6 +107,10 @@
 
 ### List Key and Index
 - lets say we have list of names, name could be duplicate and while redering element react need unique key to get rid of this we could use index. refer ```Names.jsx``` file
+- Use index as key if it satisfy following properties else use some other mechanism like hash  ...etc to generate key.
+   - Item in your list do not have unique key
+   - List is static and will not change.
+   - The list will never be re-ordered or filtered.
 
 # Branches
 - **1-components** -->
