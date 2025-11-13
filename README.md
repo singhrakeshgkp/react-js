@@ -87,6 +87,12 @@
   ```
   return flag?<div>Hello</div> : <div>Welcome></div>
   ```
+- Short circuit approach--> if condition is true render something, if its false do nothing
+  ```
+  render(
+   return true? && <div>Hello</div>
+  )
+  ```
 # Branches
 - **1-components** -->
 - **2-states** -->
