@@ -206,4 +206,4 @@
   - Create Child functional Component, add one button in render method
   - In Parent component include child component in render method, pass parent component's method as referece via prop ```childHandler={this.callParent}```
   - In child component button onClick event call parent components method ```{props.childHandler}```
-  - Render parent component in app.jsx file
+  - Include parent component in app.jsx render method
