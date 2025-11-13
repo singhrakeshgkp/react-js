@@ -5,6 +5,7 @@
 - [State](#state)
 - [Event](#Event)
    - [Binding Event Handler](#binding-event-handler)
+- [Conditional Statements](#conditional-statements)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -59,6 +60,31 @@
   - Binding in constructor
   - Binding using arrow function outside constructor
  
+## Conditional Statements
+- we can not write ```if else``` in jsx but we can write following code
+  ```
+  in your .jsx file (don't get confuse with jsx and .jsx file)
+  render(
+   if(true){
+    return <div>hello</div>
+  }else{
+  return <div>Welcome</div>
+  }
+  )
+  OR
+  let message
+  if(true){
+  message = <div>hello</div>
+  }else{
+  message= <div>Welcome</div>
+  }
+
+  return <div>{message}</div>
+ ```
+- but we can write ternary operator in jsx
+```
+return flag?<div>Hello</div> : <div>Welcome></div>
+```
 
 # Branches
 - **1-components** -->
