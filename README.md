@@ -8,6 +8,7 @@
 - [Conditional Statements](#conditional-statements)
 - [List](#List)
 - [Styling React Components](#Styling-React-Components)
+- [Form Handling](./form-handling.md)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -120,6 +121,11 @@
     - create a ```style.css``` and two ```.jsx``` file
   - inline styling
   - css modules
+    - There is file naming convention, file name must prefix with ```.module.css``` ex.  ```appStyle.module.css```
+    - CSS module can not be applied to child components,ex if we compy <h1> tag with success class in other .jsx file it will not work, however if we do same for <h1> error tag it will work.
+    - Create two css file ```appStyle.css and appStyle.module.css```
+    - import these two files in ```app.jsx``` if  u observe the way we have imported these file are different.
+    - Use ```error``` and ```success``` css class in h1 tag of ```app.jsx``` file and verify output
   - css in js libraries (recomended)
 
 # Branches
