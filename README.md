@@ -98,8 +98,12 @@
 
 # List
 - **Branch** 4-conditional-list
-- 
-  
+
+### Iterating students(refer students and student.jsx)
+- Iterate list of students
+- Iterate list of students by separating Student and Sutdents(Iterating jsx) logic separately  by passing students as props
+### Iterating customers and use key (refer customers and customer.jsx file)
+
 # Branches
 - **1-components** -->
 - **2-states** -->
