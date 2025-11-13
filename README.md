@@ -62,7 +62,8 @@
  
 ## Conditional Statements
 - we can not write ```if else``` in jsx but we can write following code
-  ```
+
+   ```
   in your .jsx file (don't get confuse with jsx and .jsx file)
   render(
    if(true){
@@ -80,8 +81,11 @@
   }
 
   return <div>{message}</div>
+   
  ```
+
 - but we can write ternary operator in jsx
+
 ```
 return flag?<div>Hello</div> : <div>Welcome></div>
 ```
@@ -89,7 +93,8 @@ return flag?<div>Hello</div> : <div>Welcome></div>
 # Branches
 - **1-components** -->
 - **2-states** -->
-- 
+
+
 - **item-card**--> add iphone image, and itemcard.jsx file and apply css on the item.
 - **apply-css** --> we can apply external css, modules specific css and inline css. Refer ```Button1, Button2, Button2 .jsx files```
 - **passing-props**--> Pass key value pair to react js component.
