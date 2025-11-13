@@ -1,7 +1,7 @@
 # Table of contents
 - [Introduction](#introduction)
 - [Proj Setup](#Proj-setup)
-- [Components Basic](#Components)
+- [Components](#Components)
 - [State](#state)
 - [Event](#Event)
    - [Binding Event Handler](#binding-event-handler)
