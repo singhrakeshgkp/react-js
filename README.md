@@ -7,6 +7,7 @@
    - [Binding Event Handler](#binding-event-handler)
 - [Conditional Statements](#conditional-statements)
 - [List](#List)
+- [Styling React Components](#Styling-React-Components)
 - [Branches](#branches)
 - References
   - https://react.dev/learn
@@ -111,6 +112,14 @@
    - Item in your list do not have unique key
    - List is static and will not change.
    - The list will never be re-ordered or filtered.
+
+# Styling React Components
+- **branch**--> 5-styling
+- Following ways we can apply css
+  - css stylesheets
+  - inline styling
+  - css modules
+  - css in js libraries
 
 # Branches
 - **1-components** -->
