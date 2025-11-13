@@ -117,9 +117,10 @@
 - **branch**--> 5-styling
 - Following ways we can apply css
   - css stylesheets
+    - create a ```style.css``` and two ```.jsx``` file
   - inline styling
   - css modules
-  - css in js libraries
+  - css in js libraries (recomended)
 
 # Branches
 - **1-components** -->
