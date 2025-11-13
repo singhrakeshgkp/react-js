@@ -14,6 +14,9 @@
  - [Component life cycle](#component-life-cycle)
 -  [Props](#Props)
    - [Destructuring props](#Destructuring-props)
+- [Calling Parent componets method from child component button click](#Calling-Parent-componets-method-from-child-component-button-click)
+
+# Branch 1-components
 ## Stateless functional component
 - are java script functions, return html can contains .js or jsx file
 - Steps to create and render new component.
@@ -193,3 +196,14 @@
 
   
   ```
+
+
+
+  # Branch 1-components-p-child
+  ## Calling Parent componets method from child component button click
+  - We can achieve this using props
+  - Create parent class component, create a method in it that we will be calling from child
+  - Create Child functional Component, add one button in render method
+  - In Parent component include child component in render method, pass parent component's method as referece via prop ```childHandler={this.callParent}```
+  - In child component button onClick event call parent components method ```{props.childHandler}```
+  - Render parent component in app.jsx file
