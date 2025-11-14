@@ -11,10 +11,10 @@
     - [Named Export and Import](#named-export-and-import)
  - [Higher order component](#higher-order-component)
  - [Pure Component](#pure-component)
- - [Component life cycle](#component-life-cycle)
 -  [Props](#Props)
    - [Destructuring props](#Destructuring-props)
 - [Calling Parent componets method from child component button click](#Calling-Parent-componets-method-from-child-component-button-click)
+- [Component life cycle](#component-life-cycle)
 
 # Branch 1-components
 ## Stateless functional component
@@ -142,22 +142,6 @@
   - Import parent component in app.js file.
   - To Check if pure component is re-rendring the result or not lets simple add logs.
 
-  ## Component life cycle
-  ```
-  1. Mounting
-  componentWillMount-------> Render -----> componentDidMount
-  (when an instance of component is being created and inserted into DOM)
-  2. Updation (when a component is being re-rendered as a result of changes to either its props or state)
-
-    componentWillReceiveProps()---- >                               
-   ->ShouldComponentUpdate()-->ComponentWillUpdate()-->render()
-     setState()  ------------------->
-                 
-  3. Unmounting-> Perform cleanup operation (when a component is being removed from DOM)
-  componentWillUnmount()
-  4. Error Handling
-  ```
-
   ## Props
   - Shorts for properties allow users to pass arguments or data to component
   - It help make component more dynamic.
@@ -209,3 +193,28 @@
   - In Parent component include child component in render method, pass parent component's method as referece via prop ```childHandler={this.callParent}```
   - In child component button onClick event call parent components method ```{props.childHandler}```
   - Include parent component in app.jsx render method
+ 
+ 
+  ## Component life cycle
+  ```
+  1. Mounting
+  componentWillMount-------> Render -----> componentDidMount
+  (when an instance of component is being created and inserted into DOM)
+  2. Updation (when a component is being re-rendered as a result of changes to either its props or state)
+
+    componentWillReceiveProps()---- >                               
+   ->ShouldComponentUpdate()-->ComponentWillUpdate()-->render()
+     setState()  ------------------->
+                 
+  3. Unmounting-> Perform cleanup operation (when a component is being removed from DOM)
+  componentWillUnmount()
+  4. Error Handling
+  ```
+
+
+  ### Mounting
+  #### Following method gets called during mounting process
+  1. constructor()--> A special function which gets called whenever a new component is created.  It is used to initialize state, binding the event handler. Do nto cause the side effect ex we should never make http requests.
+  2. static getDerivedStateFromProps(props,state) --> When state of component depends on changes in props over time. since its static so we can not use this keyword, we can setState. Do nto cause the side effect ex we should never make http requests.
+  3. render()-->
+  4. componentDidMount()-->Invoked immediately after a component and all its child components have been rendered to the DOM. Cause side effect, ex intract with the DOM or perform any ajax calls to load data.
