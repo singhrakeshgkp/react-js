@@ -146,14 +146,16 @@
   ```
   1. Mounting
   componentWillMount-------> Render -----> componentDidMount
-  2. Updation
+  (when an instance of component is being created and inserted into DOM)
+  2. Updation (when a component is being re-rendered as a result of changes to either its props or state)
 
     componentWillReceiveProps()---- >                               
-                                         ->ShouldComponentUpdate()-->ComponentWillUpdate()-->render()
+   ->ShouldComponentUpdate()-->ComponentWillUpdate()-->render()
      setState()  ------------------->
                  
-  3. Unmounting-> Perform cleanup operation
+  3. Unmounting-> Perform cleanup operation (when a component is being removed from DOM)
   componentWillUnmount()
+  4. Error Handling
   ```
 
   ## Props
