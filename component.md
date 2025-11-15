@@ -143,6 +143,8 @@
   - Import parent component in app.js file.
   - To Check if pure component is re-rendring the result or not lets simple add logs.
   - Run and check console log, you will observe regualr and parent component rendering after each 1 sec.
+ 
+- since pure component works with class based component same we can achieve with functional component using memo.
 
   ## Props
   - Shorts for properties allow users to pass arguments or data to component
