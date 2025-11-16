@@ -1,57 +1,42 @@
 import React,{Component} from "react";
+import { element } from "wd/lib/commands";
 
 class StudentForm extends Component{
-    constructor(props){
-        super(props)
-        this.state={
-            studentName: '',
-            about: '',
-            gender:''
-        }
+
+    constructor(){
+        super()
+        /* step 1.  create one ref property
+        step 2 attach this ref to input field in render method 
+        step 3. call focus method on inputref*/
+        this.inputRef = React.createRef()
+        /* using call back 
+        1. step 1 initialize */
+       /*  this.cbref = null
+        this.setCbRef = element=>{
+            this.cbref = element
+        } */
     }
+    
+    componentDidMount(){
+        /* approach 1- focusing input */
+       /*  this.inputRef.current.focus()
+        console.log(this.inputRef) */
+        /* approach 2 - focusing input */
+        /* if(this.cbref){
+            this.cbref.focus()
+        } */
 
-     handleStudentNameChange = (event)=>{
-        this.setState({
-            studentName: event.target.value
-        })
     }
-
-   handleAboutChange=(event)=>{
-    this.setState({
-        about: event.target.value
-    })
-   } 
-
-   handleGenderChange=(event)=>{
-    this.setState({
-        gender: event.target.value
-    })
-   }
-
-   handleSubmit=event=>{
-    alert(`${this.state.studentName},${this.state.about}, ${this.state.gender}`)
-    event.preventDefault()
-   }
     render(){
         return(
-            <form onSubmit={this.handleSubmit}>
+           <div>
                 <div>
                     <label>Student Name</label>
-                    <input type="text" value={this.state.studentName} onChange={this.handleStudentNameChange}></input>
+                    <input type="text" ref={this.inputRef}></input>
+                  {/*   <input type="text" ref={this.setCbRef}></input> */}
                 </div>
-                <div>
-                    <label>About student</label>
-                    <textarea value={this.state.about} onChange={this.handleAboutChange}></textarea>
+               
                 </div>
-                <div>
-                    <label>Gender</label>
-                    <select value={this.state.gender} onChange={this.handleGenderChange}>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
         )
     }
 }
