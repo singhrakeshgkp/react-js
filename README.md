@@ -10,6 +10,7 @@
 - [Styling React Components](#Styling-React-Components)
 - [Form Handling](./form-handling.md)
 - [Portals]
+- [Hooks](./hooks.md)
 - References
   - https://react.dev/learn
 # Introduction
