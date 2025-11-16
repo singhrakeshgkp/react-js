@@ -14,8 +14,8 @@
 - Only call hooks at top level(don't call hooks inside loop, conditions or nested functions)
 - Only call hooks from react functions (Call them from react functional components not from any regular javascript function)
 
-### State Hook
-#### branch 10-hooks-state
+### useState Hook
+#### branch 10-hooks-1
 - The useState hook does not automatically merge objects like this.setState in class components. You must manually merge the previous state using the spread syntax
 - Examples
    - Counter.jsx ----> implemented counter, unsafe way
@@ -23,4 +23,6 @@
    - StateHooksWithObj.jsx  ----> Here we have used spread operator to merge objects
    - StateHooksWithArray.jsx 
 
-  
+
+### useEffect Hook
+- Lets you perform side effect in functional components. Its close replacement for ComponentDidMount(), ComponentDidUpdate() and ComponentWillUnmount()
