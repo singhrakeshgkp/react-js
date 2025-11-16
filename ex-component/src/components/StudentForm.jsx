@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import { element } from "wd/lib/commands";
 
 class StudentForm extends Component{
 
@@ -19,13 +18,16 @@ class StudentForm extends Component{
     
     componentDidMount(){
         /* approach 1- focusing input */
-       /*  this.inputRef.current.focus()
-        console.log(this.inputRef) */
+        this.inputRef.current.focus()
+        console.log(this.inputRef) 
         /* approach 2 - focusing input */
         /* if(this.cbref){
             this.cbref.focus()
         } */
 
+    }
+    btnClickHadler=()=>{
+        alert(this.inputRef.current.value)
     }
     render(){
         return(
@@ -34,6 +36,7 @@ class StudentForm extends Component{
                     <label>Student Name</label>
                     <input type="text" ref={this.inputRef}></input>
                   {/*   <input type="text" ref={this.setCbRef}></input> */}
+                  <button onClick={this.btnClickHadler}>Click</button>
                 </div>
                
                 </div>
