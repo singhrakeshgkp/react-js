@@ -2,21 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Counter from './components/Counter'
-import AnotherCounterEx from './components/AnotherCounterEx'
-import StateHooksWithObj from './components/StateHooksWithObj'
-import StateHooksWithArrayObj from './components/StateHooksWithArrayObj'
+import ClassCounterComp1 from './components/ClassCounterComp1'
+import HookCounter1 from './components/HookCounter1'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Counter></Counter>
-      <h3>counter with inc,dec,and reset</h3>
-      <AnotherCounterEx></AnotherCounterEx>
-      <StateHooksWithObj></StateHooksWithObj>
-      <h1> State hook with Array object </h1>
-      <StateHooksWithArrayObj></StateHooksWithArrayObj>
+     <ClassCounterComp1></ClassCounterComp1>
+     <HookCounter1></HookCounter1>
     </div>
   )
 }
