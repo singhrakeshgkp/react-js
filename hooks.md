@@ -31,3 +31,9 @@
 - Exercise--> Create a counter and change title every time count gets increased. Solution--> we did it with class and functional component, please refer 
 - **Condition useEffectHooks**  -- branch 10-hooks-2-effect-conditional
   - create a class component, add one input type and counter. Go to browser and check if u type in text box ```title updated``` log printed make sure ```if(prevState.count != this.state.count)``` code is not present, you will observe as we type no matter if counter is chaning or not log is printing multiple times. To get rid of this we can add ``` if(prevState.count != this.state.count)``` code in componentUpdate method. Same we will do using useEffect hook refer ```HookCounter1.jsx``` functional component.
+- **10-hooks-2-effect-runonlyonce**---->  mimic componentDidMount() functionality.
+- **10-hooks-2-effect-unmount**---> mimic componentWillUnmount() functionality---> specially we use to perform cleanup operation, ex. removing eventlistener.
+- **10-hooks-2-effect-fetchdata**
+   - For data fetching we will use axios, run ```npm install axios``` command from terminal, check package.json axios dependency should be added.
+   - Use json place holder api ```https://jsonplaceholder.typicode.com/posts```
+   - Create one functional component ```GetOperation.jsx``` write the required logic. and the program if u observe console u will see infinite loop fetching the data, to avoid this we will use ```[]``` empty array as second parameter which tells to execute only once
