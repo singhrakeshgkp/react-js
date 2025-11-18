@@ -26,3 +26,8 @@
 
 ### useEffect Hook
 - Lets you perform side effect in functional components. Its close replacement for ComponentDidMount(), ComponentDidUpdate() and ComponentWillUnmount()
+- Run after every render of components
+- useState is placed inside components.
+- Exercise--> Create a counter and change title every time count gets increased. Solution--> we did it with class and functional component, please refer 
+- **Condition useEffectHooks**  -- branch 10-hooks-2-effect-conditional
+  - create a class component, add one input type and counter. Go to browser and check if u type in text box ```title updated``` log printed make sure ```if(prevState.count != this.state.count)``` code is not present, you will observe as we type no matter if counter is chaning or not log is printing multiple times. To get rid of this we can add ``` if(prevState.count != this.state.count)``` code in componentUpdate method. Same we will do using useEffect hook refer ```HookCounter1.jsx``` functional component.
