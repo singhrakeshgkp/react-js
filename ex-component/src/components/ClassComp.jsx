@@ -12,7 +12,13 @@ class ClassComp extends Component{
         this.setState({x: e.clientX, y: e.clientY})
     }
     componentDidMount(){
+        console.log('class component mounted')
         window.addEventListener('mousemove',this.trackMousePosition)
+    }
+
+    componentWillUnmount(){
+     window.removeEventListener('mousemove',this.trackMousePosition) //cleanup, removed eventListner
+      console.log("class component unmounted")
     }
 
     render(){

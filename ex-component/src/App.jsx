@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ClassComp from './components/ClassComp'
 import HooksFunComp from './components/HooksFunComp'
+import Container from './components/Container'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-     <ClassComp></ClassComp>
-     {/* <HooksFunComp></HooksFunComp> */}
+    <Container></Container>
     </div>
   )
 }
