@@ -37,3 +37,6 @@
    - For data fetching we will use axios, run ```npm install axios``` command from terminal, check package.json axios dependency should be added.
    - Use json place holder api ```https://jsonplaceholder.typicode.com/posts```
    - Create one functional component ```GetOperation.jsx``` write the required logic. and the program if u observe console u will see infinite loop fetching the data, to avoid this we will use ```[]``` empty array as second parameter which tells to execute only once
+   - **Fetch all Posts** -----> refer ```GetOperations.jsx```
+   - **Fetch data by id, accept id from input box** ---->```GetPostById.jsx```
+   - **Fetch data by id, accept id from input box and click on button(useEffect shold be called when any one click on button)**--->```GetPostByIdButtonClick.jsx```
