@@ -2,6 +2,8 @@
  - [Introduction](#hooks)
  - [Rules of hooks](#rules-of-hooks)
  - [State Hook](#state-hook)
+ - [Effect Hook](#effect-hook)
+ - [Context Hook](#context-hook)
 
 
 
@@ -14,7 +16,7 @@
 - Only call hooks at top level(don't call hooks inside loop, conditions or nested functions)
 - Only call hooks from react functions (Call them from react functional components not from any regular javascript function)
 
-### useState Hook
+### State Hook
 #### branch 10-hooks-1
 - The useState hook does not automatically merge objects like this.setState in class components. You must manually merge the previous state using the spread syntax
 - Examples
@@ -24,7 +26,7 @@
    - StateHooksWithArray.jsx 
 
 
-### useEffect Hook
+### Effect Hook
 - Lets you perform side effect in functional components. Its close replacement for ComponentDidMount(), ComponentDidUpdate() and ComponentWillUnmount()
 - Run after every render of components
 - useState is placed inside components.
@@ -40,3 +42,8 @@
    - **Fetch all Posts** -----> refer ```GetOperations.jsx```
    - **Fetch data by id, accept id from input box** ---->```GetPostById.jsx```
    - **Fetch data by id, accept id from input box and click on button(useEffect shold be called when any one click on button)**--->```GetPostByIdButtonClick.jsx```
+ 
+
+### Context Hook
+#### Branch 10-hooks-3-context
+- Provides a way to pass data through the component tree without having to pass props down manually at every level.
