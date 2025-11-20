@@ -68,3 +68,15 @@
 2. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10** ---> CounterComp2.jsx
 3. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp3.jsx (little bit complex, for simpler version refer point 4. CounterComp4.jsx)
 4.  **Multiple Reducer ====> Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp4.jsx
+
+## use reducer with useContext
+### branch 10-hooks-4-reducer-2
+- This we do to achieve global state management, lets assume we have six component (Comp1....Comp6) we want to implement counter in all component, instead of writing counter logic in all three component we will write logic in app.jsx and pass them as property to each component.
+- component is defined as per below
+- app.js has
+   - comp1 
+   - comp2 has
+      - comp4
+   - comp3 has
+      - comp5 has
+         - comp6
