@@ -1,9 +1,10 @@
 - [Hooks](#hooks)
  - [Introduction](#hooks)
  - [Rules of hooks](#rules-of-hooks)
- - [State Hook](#state-hook)
- - [Effect Hook](#effect-hook)
- - [Context Hook](#context-hook)
+ - [useState Hook](#usestate-hook)
+ - [useEffect Hook](#effect-hook)
+ - [useContext Hook](#usecontext-hook)
+ - [useReducer Hook](#useReducer-hook)
 
 
 
@@ -16,7 +17,7 @@
 - Only call hooks at top level(don't call hooks inside loop, conditions or nested functions)
 - Only call hooks from react functions (Call them from react functional components not from any regular javascript function)
 
-### State Hook
+### useState Hook
 #### branch 10-hooks-1
 - The useState hook does not automatically merge objects like this.setState in class components. You must manually merge the previous state using the spread syntax
 - Examples
@@ -26,7 +27,7 @@
    - StateHooksWithArray.jsx 
 
 
-### Effect Hook
+### useEffect Hook
 - Lets you perform side effect in functional components. Its close replacement for ComponentDidMount(), ComponentDidUpdate() and ComponentWillUnmount()
 - Run after every render of components
 - useState is placed inside components.
@@ -44,7 +45,7 @@
    - **Fetch data by id, accept id from input box and click on button(useEffect shold be called when any one click on button)**--->```GetPostByIdButtonClick.jsx```
  
 
-### Context Hook
+### useContext Hook
 #### Branch 10-hooks-3-context
 - Provides a way to pass data through the component tree without having to pass props down manually at every level.
 ### Passing value to child property using context.
@@ -58,3 +59,11 @@
 #### Branch 10-hooks-3-context-2
 - refer ```ComponentX.jsx```
 
+
+### useReducer Hook
+- like useState hook useReducer also used for state management. It's an alternative to useState, useSate is built using useReducer.
+#### when to use useSate and when to use useReducer?
+1. **Implement simple counter** --> CounterComp1.jsx
+2. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10** ---> CounterComp2.jsx
+3. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp3.jsx (little bit complex, for simpler version refer point 4. CounterComp4.jsx)
+4.  **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp4.jsx
