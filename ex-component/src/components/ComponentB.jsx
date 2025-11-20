@@ -1,8 +1,8 @@
 import React from "react";
-import ComponentC from "./ComponentC";
+import ComponentX from "./ComponentX";
 function ComponentB(){
     return <>
-    <ComponentC></ComponentC>
+    <ComponentX></ComponentX>
     </>
 }
 
