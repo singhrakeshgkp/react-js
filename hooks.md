@@ -48,8 +48,13 @@
 #### Branch 10-hooks-3-context
 - Provides a way to pass data through the component tree without having to pass props down manually at every level.
 ### Passing value to child property using context.
-- **branch** 10-hooks-3-context
+ #### branch 10-hooks-3-context-1
 - Create Nested component ```ComponentA, ComponentB, and ComponentC
 - add ```export const UserContext = React.createContext() ``` code in ```app.jsx``` file and include the component where we want to pass value in ```UserContext.Provider value={'some value'}>``` as child element.
 - Import the UserContext in Component.jsx file and print the user value 
-- This approach becomes complicated if we have multiple context such as userContext, channelContext.....etc refer ```ComponentX.jsx```
+- If we have multiple context such as ```UserContext, ChannelContext ...etc ``` it becomes very verbose/ugly see ```ComponentX.jsx```. To avoid this nesting we can use ContextHook.
+
+### Passing value to child property using context hook
+#### Branch 10-hooks-3-context-2
+- refer ```ComponentX.jsx```
+
