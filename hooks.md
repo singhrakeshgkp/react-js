@@ -66,4 +66,4 @@
 1. **Implement simple counter** --> CounterComp1.jsx
 2. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10** ---> CounterComp2.jsx
 3. **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp3.jsx (little bit complex, for simpler version refer point 4. CounterComp4.jsx)
-4.  **Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp4.jsx
+4.  **Multiple Reducer ====> Implement Counter with object and add two additional functionality which is increment by 10 and decrement by 10 and one more counter that has same sate transition(increment, decrement and reset)** ---> CounterComp4.jsx
