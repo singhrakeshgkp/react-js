@@ -1,20 +1,38 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import GetOperation from './components/GetOperation'
-import GetPostById from './components/GetPostById'
-import GetPostByIdButtonClick from './components/GetPostByIdButtonClick'
+import ComponentA from './components/ComponentA'
+import ComponentX from './components/ComponentX'
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <div>
-      <GetPostById></GetPostById>
-      <h1>GetOperation on button click</h1>
-      <GetPostByIdButtonClick></GetPostByIdButtonClick>
-      <h1>GetAll Records</h1>
-      <GetOperation></GetOperation>
+
+      {/* task 1- single context */}
+
+
+      
+      {/* <UserContext.Provider value={'rakesh singh'}>
+        <ComponentA></ComponentA>
+         <ComponentX></ComponentX>
+      </UserContext.Provider> */}
+
+
+
+      {/* Task 2 multiple context */}
+
+      <UserContext.Provider value={'rakesh singh'}>
+        <ChannelContext.Provider value={'web'}>
+          <ComponentX></ComponentX>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+
+
+
+
     </div>
   )
 }
