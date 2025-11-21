@@ -108,11 +108,13 @@
 
   ## useCallback Hook
   - Read more from docs
+  - Used to cache function
   - problems without callback--> if u run ```10-hooks-5-callback-1``` brach code and see console u will observe each component getting rendered if we click increment age or update name button.
   - To avoid component rendering we can enclose each child component inside ```React.memo```, now if run  ```10-hooks-5-callback-2``` code and check console, you will observe still few log getting printed.
   - if we want only component which state is bieing change re-render. To achieve this we can use callBackHook refer ```10-hooks-5-callback-3``` branch
   - Using callback hook every time is not good, please see documentation.
 
   ## useMemo Hook
+  - Used to cache function value.
   
  
