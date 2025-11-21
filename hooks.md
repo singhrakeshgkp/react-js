@@ -72,7 +72,7 @@
 
 ## useReducer with useContext
 ### branch 10-hooks-4-reducer-2
-- This we do to achieve global state management, lets assume we have six component (Comp1....Comp6) we want to implement counter in all component, instead of writing counter logic in all three component we will write logic in app.jsx 
+- This we do to achieve global state management, lets assume we have six component (Comp1....Comp6) we want to implement counter in all component, instead of writing counter logic in all four component (Comp1, Comp4, Comp5 and Comp6)we will write logic in app.jsx 
 - component is defined as per below
 - app.js has
    - comp1 
