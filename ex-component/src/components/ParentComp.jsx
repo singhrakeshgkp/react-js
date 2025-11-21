@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import Title from "./Title";
 import Button from "./Button";
 import Count from "./Count";
@@ -7,12 +7,12 @@ function ParentComp(){
 
     const [age, setAge] = useState(22)
     const [name,setName] = useState('rakesh')
-    const updateName = () => {
+    const updateName = useCallback(() => {
         setName(name+' singh')
-    }
-    const incAge = () => {
+    },[name])
+    const incAge = useCallback(() => {
         setAge(age+2)
-    }
+    },[age])
     return (
         <div>
             <Title></Title>
