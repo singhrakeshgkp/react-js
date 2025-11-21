@@ -5,7 +5,11 @@
  - [useEffect Hook](#effect-hook)
  - [useContext Hook](#usecontext-hook)
  - [useReducer Hook](#useReducer-hook)
- - [useReducer with useContext](#useReducer-with-useContext)
+   - [useReducer with useContext](#useReducer-with-useContext)
+   - [useReducer to fetch data](#useReducer-to-fetch-data)
+   - [useState vs useReducer](#useState-vs-useReducer)
+  - [useCallback Hook](#useCallback-hook)
+  - [useMemo Hook](#useMemo-hook)
 
 
 
@@ -81,3 +85,29 @@
    - comp3 has
       - comp5 has
          - comp6
+       
+
+  ## useReducer to fetch data
+  ### branch 10-hooks-4-reducer-3
+  - Fetch data using useState and useReducer
+  
+ ## useState vs useReducer
+ - useState
+    - prefer to use with Number string or boolean
+    - if we are mainting limited state such as one two or three
+    - do not prefer for related state transition like we saw in data fetch we have error, loading...etc
+    - prefer to use if there is not going to be any business logic.
+    - prefered to use local state management.
+  
+ - useReducer
+    - prefer to use with object and array
+    - if we are using multiple state, we can consider it.
+    - prefer for related state transition.
+    - can be used for complex business logic.
+    - can be used for global state management.
+
+  ## useCallback Hook
+
+  ## useMemo Hook
+  
+ 
