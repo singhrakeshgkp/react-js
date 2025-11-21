@@ -7,4 +7,4 @@ function Count({text,count}){
     )
 }
 
-export default Count
+export default React.memo(Count)
