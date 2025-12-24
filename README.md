@@ -1,4 +1,5 @@
 # Table of contents
+- [Shortcuts](#shortcusts)
 - [Introduction](#introduction)
 - [Proj Setup](#Proj-setup)
 - [Components](#Components)
@@ -14,6 +15,21 @@
 - References
   - https://react.dev/learn
   - https://www.youtube.com/watch?v=CI7EYWmRDJE&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=58
+ 
+# Shortcuts
+```
+ FE Shortcut
+----------------------
+! + Tab =====> HTML, Head, Body script
+a*6+ Enter ===> will create 6 <a> tag. If line does not gets changed for each tag check emmet setting of vs code.
+Cmd + alt + down/up arrow to update all six/multiple  tag/lines
+Alt/option + click ----> click lines whatever u wanted to update.
+.col>h1{Box})10 ----> this will create 10 div tag and h1 tag in each.
+.row>(.col>.box)*3 ----> will create one row and three column div in it. Ex.   <div class="row><div class="col><div class="box>.   
+
+.row>.col*4>.box1{feature}--> <div row><div col><div box1>feature
+
+```
 # Introduction
 - React is a java script library, used to create complex UI using small isolated pieces of code called component. It uses a syntax extension of java script known as **jsx** (java script xml). jsx allow to write html code within java script files.
 - React uses virtual DOM. A virtual DOM is a lightweight version of real DOM,
