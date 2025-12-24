@@ -156,11 +156,9 @@
 - **GreetFunctionalParameterizedComponent.jsx** --> functional component with props
 
 ### Passing Prop to class child component
-- Put below line of code in child component```ClassProp.js``` and ```app.js``` respectively.
- ```
-  <div>Hello {this.props.name}  welcome to prop section of this tutorial</div>  and in app.js  <div><ClassProp name="rakesh"></ClassProp></div
+- **GreetFunctionalParentChildPropComponent.jsx** --> passing html element such as ```<h1>``` from parent to child
+
   
- ```
 ### Passing multiple props to  class child component
 - Add below line of code in child component ```ClassProp.js``` and ```app.js```
 ```
