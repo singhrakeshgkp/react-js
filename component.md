@@ -151,10 +151,10 @@
   - It help make component more dynamic.
   - Props are passed to component in the way similar to that of html tag attributes.
   - In component its read only and can not be changed.
-### First Props example
-- Create new folder inside source folder, i'll call it ```props```
-- Create New js file, lets say ```ClassProp.js```
-- finally import the ```ClassProp``` in app.js file, on browser it should display the message what we have defined in props file.
+### Some Props example
+- **GreetClassWithPropComponent.jsx** ---> Class component with props.
+- **GreetFunctionalParameterizedComponent.jsx** --> functional component with props
+
 ### Passing Prop to class child component
 - Put below line of code in child component```ClassProp.js``` and ```app.js``` respectively.
  ```
