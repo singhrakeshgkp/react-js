@@ -160,13 +160,12 @@
 
   
 ### Passing multiple props to  class child component
-- Add below line of code in child component ```ClassProp.js``` and ```app.js```
+
 ```
   <div>Hello {this.props.name} from {this.props.city} welcome to prop section of this tutorial</div> and in app.js <div><ClassProp name="rakesh" city="Gorakhpur India"></ClassProp></div>
 
 ```
 ### Passing the multiple props to functional child component
-- Create a ```FunctionalProp.js``` file
 
 ### Destructuring props
 - define functional component as shown below, same way we can destructure class props and state.
