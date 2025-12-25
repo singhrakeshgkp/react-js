@@ -1,4 +1,4 @@
-import React,{Component} from "react"
+import { Component } from "react"
 
 class Counter extends Component{
     constructor(props){
@@ -16,7 +16,7 @@ class Counter extends Component{
        })
         console.log(this.state.count) */
 
-        /* call to set state is asynchronous so counter on console will always be 1 lets than value what we have on ui as console.log gets called before setting state.
+        /* call to set state is asynchronous so counter on console will always be 1 less than value what we have on ui as console.log gets called before setting state.
         we can get rid of above issue using callback, setState can take two parameter one is state object and another is call back function */
         /* this.setState({
             count:this.state.count+1
