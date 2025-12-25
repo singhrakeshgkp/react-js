@@ -1,4 +1,4 @@
-import React,{Component} from "react";
+import { Component } from "react";
 import ChildComponentEx1 from "./ChildCompEx1";
 
 
@@ -8,6 +8,14 @@ class ParentCompEx1 extends Component{
         this.state={
             parentCompName:"parent component"
         }
+
+        /* 
+        extends Component gives access to:
+        1. this.props
+        2. this.state
+        3. lifecycle methods
+        4. render()
+         */
         this.callParent=this.callParent.bind(this)
     }
 
