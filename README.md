@@ -46,6 +46,9 @@ Alt/option + click ----> click lines whatever u wanted to update.
 - **branch** --> 2-state
 - A state is an object that stores the values of properties belonging to a component that could change over a period of time
 - we should never modify state directly,instead we should use setState functiion. Below line of code will not render the incremented counter value in DOM, however expected value will be printed on console
+- Direct state mutation does NOT trigger re-render. React only re-renders when:
+  - setState() is called (class components)
+  - state setter is called (useState)
   ```
   this.state.count=this.state.count+1 
   ```
